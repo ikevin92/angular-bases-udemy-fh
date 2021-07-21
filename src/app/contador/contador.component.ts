@@ -3,13 +3,13 @@ import { Component } from '@angular/core';
 @Component( {
   selector: 'app-contador',
   template: `
-  <h1>{{titulo}}</h1>
+      <h1>{{titulo}}</h1>
 
-  <p>La base es: <strong>{{base}}</strong></p>
+      <p>La base es: <strong>{{base}}</strong></p>
 
-<button (click)="acumular(base)">+{{base}}</button>
-<span>{{ numero }}</span>
-<button (click)="acumular(-base)">-{{base}}</button>
+      <button (click)="acumular(base)">+{{base}}</button>
+      <span>{{ numero }}</span>
+      <button (click)="acumular(-base)">-{{base}}</button>
   `,
 } )
 export class ContadorComponent {
