@@ -12,8 +12,10 @@
   </div>
 
   <div class="col">
+    <!-- recibe el evento que emite con el output -->
     <app-agregar
-      [nuevo]="nuevo">
+      [nuevo]="nuevo"
+      (onNuevoPersonaje)="agregarNuevoPersonaje($event)">
     </app-agregar>
   </div>
 

@@ -15,4 +15,8 @@ export class MainPageComponent {
     nombre: 'Kamisama',
     poder: 300,
   };
+
+  agregarNuevoPersonaje(personaje: Personaje) {
+    this.personajes.push(personaje);
+  }
 }
